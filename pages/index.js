@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
       <main className="bg-gradient-to-r from-gray-400 px-10 dark:bg-gradient-to-r from-gray-900; md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+          <nav className="py-4 mb-2 flex justify-between dark:text-white">
             <h1 className="font-burtons text-xl"></h1>
             <ul className="flex items-center">
               <li>
