@@ -4,7 +4,6 @@ import {
   AiGitHubCircle,
   AiFillYoutube
 } from "react-icons/ai";
-import { } from "fa-icons"
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import avatar from "../public/avatar.png";
