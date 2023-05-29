@@ -27,12 +27,12 @@ export default function Home() {
           <nav className="py-4 mb-2 flex justify-between dark:text-white light:text-black">
             <h1 className="font-burtons text-xl"></h1>
             <ul className="flex items-center">
-              <li>
+              {/* <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
                   className=" cursor-pointer text-2xl"
                 />
-              </li>
+              </li> */} takes out broken dark mode/light mode button 
               <li>
                 <a
                   className="bg-gradient-to-r from-gray-800 text- to-gray-400 text-white px-4 py-2 border-none rounded-md ml-8"
