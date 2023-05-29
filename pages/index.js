@@ -43,14 +43,14 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-10">
+          <div className="text-center p-5 py-5">
             <h2 className="text-5xl py-2 text-gray-900 font-medium dark:text-gray-800 md:text-6xl">
              Aaron W. Daley
             </h2>
             <h3 className="text-2xl py-2 dark:text-black md:text-3xl">
               FullStack Developer
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-900 dark:text-gray-900 max-w-xl mx-auto md:text-xl">
+            <p className="text-md py-2 leading-8 text-gray-900 dark:text-gray-900 max-w-xl mx-auto md:text-xl">
               A creative problem-solver, software engineer, and Navy veteran 
               providing services for programming and design needs. 
             </p>
@@ -60,7 +60,7 @@ export default function Home() {
               <a href="https://drive.google.com/drive/folders/1Jmh6zD4k_OOsECbl8WJqlIiCJjsULdcq?usp=share_link"> <AiFillCamera /> </a>
               <a href="https://linktr.ee/itstrble"> <AiFillCustomerService /> </a>
             </div>
-            <div className="mx-auto bg-gradient-to-b from-gray-700 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto py-3 bg-gradient-to-b from-gray-700 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={avatar} layout="fill" objectFit="cover" />
             </div>
           </div>
