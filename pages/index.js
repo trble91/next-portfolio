@@ -40,6 +40,12 @@ export default function Home() {
                 >
                   Resume
                 </a>
+                <button
+                  className="bg-gradient-to-r from-gray-800 text- to-gray-400 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://docs.google.com/document/d/e/2PACX-1vT0RXDhFkBvoZewKe124aedwiKDqXThqOMrUhe1CSPwifI5E6MEVoL7JUs3yCiUZAxZxb1ANMM5FvFN/pub"
+                >
+                  Projects
+                </button>
               </li>
             </ul>
           </nav>
@@ -54,7 +60,7 @@ export default function Home() {
               A creative problem-solver, software engineer, and Navy veteran 
               providing services for programming and design needs. 
             </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-700">
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-200 dark:text-gray-200">
               <a href="https://www.linkedin.com/in/daleyaaron/"> <AiFillLinkedin /> </a>
               <a href="https://github.com/trble91/"> <AiFillGithub /> </a>
               <a href="https://drive.google.com/drive/folders/1Jmh6zD4k_OOsECbl8WJqlIiCJjsULdcq?usp=share_link"> <AiFillCamera /> </a>
