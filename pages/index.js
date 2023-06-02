@@ -42,7 +42,7 @@ export default function Home() {
                 </a>
                 <a
                   className="bg-gradient-to-r from-gray-800 text- to-gray-400 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="bit.ly/DaleyPortfolio"
+                  href="https://aaron-daley-portfolio.vercel.app/"
                 >
                   Projects
                 </a>
