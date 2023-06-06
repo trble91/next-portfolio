@@ -10,7 +10,7 @@ import { useState } from "react";
 import avatar from "../public/avatar.png";
 import Image from "next/image";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
-import Portfolio from "./portfolio";
+// import Portfolio from "./portfolio";
 
 
 export default function Home() {
@@ -72,7 +72,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <Portfolio />
+        {/* <Portfolio /> */}
       </main>
     </div>
   );
