@@ -10,7 +10,7 @@ import { useState } from "react";
 import avatar from "../public/avatar.png";
 import Image from "next/image";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
-// import Portfolio from "./portfolio";
+
 
 
 export default function Home() {
@@ -27,14 +27,8 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className="py-4 mb-2 flex justify-between dark:text-white light:text-black">
             <h1 className="font-burtons text-xl"></h1>
-            <ul className="flex items-center">
-              {/* <li>
-                <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
-                />
-              </li> */} 
-              <li>
+
+
                 <a
                   className="bg-gradient-to-r from-gray-800 text- to-gray-400 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="https://docs.google.com/document/d/e/2PACX-1vT0RXDhFkBvoZewKe124aedwiKDqXThqOMrUhe1CSPwifI5E6MEVoL7JUs3yCiUZAxZxb1ANMM5FvFN/pub"
